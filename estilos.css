@@ -1,0 +1,122 @@
+/*<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">*/
+/*Colores*/
+/*Marronchocolate:#b17652;*/
+/*Colorhuevopodrido:#f1eade;*/
+/*Amarilloraro:#dac682;*/
+/*blanco:#ffffff;*/
+/*marroncoscuro:#522101;*/
+
+html
+{
+   /* width: 1300px;*/
+    margin: 0 auto;
+}
+body
+{
+    width: 100%;
+	background-color:#dac682 ;
+}
+#header{
+    width: 100%;
+    padding:0;
+}
+#header img{
+    width: 100%;
+    height: auto;
+}
+#menu {
+    display: flex;
+    padding: 0;
+}
+@media (max-width:40em){
+    #menu{
+        flex-direction:column;
+    }
+}
+.nav{
+    flex-grow:1;
+    background:#b17652;
+    color:#522101;
+    text-decoration:none;
+    text-align:center;
+	font-size:20px;
+    padding:15px;
+    border:2px solid #dac682;
+}
+footer
+{
+    text-align: left;
+    font-size: 13px;
+}
+ol
+{
+    list-style-type: none;
+}
+li
+{
+    list-style-type: none;
+}
+p
+{
+    text-align: justify;
+}
+a
+{
+    color:#ffff;
+}
+a:hover
+{
+    background-color: #522101;
+    color:white;
+    text-decoration: none;
+}
+#nav
+{
+    background-color:#b17652 ;
+}
+#contenedor
+{
+    background-color:#f1eade ;
+	padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-size:15px;
+}
+#footer
+{
+    background-color:#dac682 ;
+	text-align:center;
+	
+}
+#footer li
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#parrafo1
+{
+    width: 80%;
+
+}
+#foto
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 5px;
+
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+#contenedor a
+{
+    color:#522101;
+}
+#contenedor a:hover
+{
+    color:#ffff !important;
+}
