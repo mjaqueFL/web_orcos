@@ -7,7 +7,7 @@
     <meta name="description=" content="Esta pagina unicamente esta para unirte a la asociacion de los orcos">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <link href="Estilos/estilos.css" rel="stylesheet" type="text/css">
     <script src="Javascript/Cookie.js"></script>
     <title>Hazte Miembro del club</title>
 </head>
@@ -32,7 +32,7 @@
 
 
         <div class="row" id="contenedor">
-            <form class="col-12" method="post" name="contactar" onsubmit="return aceptar()">          <!--FORMULARIO-->
+            <form class="col-12" method="post" name="contactar" onsubmit="return aceptar()" action="registrado.html">          <!--FORMULARIO-->
                 <div class="row">           <!--PRIMER BLOQUE(FILA)-->
                     <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
                         <label class="col-4 col-sm-3 col-md-4 col-lg-3" for="Nombre">Nombre:</label>
@@ -99,11 +99,36 @@
                     </div>
                 </div>
                 <div class="row">           <!--CUARTO BLOQUE(FILA)-->
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
-                        <div class="form-check">
-                            <input type="checkbox"  class="form-check-input" id="check" name="condiciones" value="aceptado" >
+                    <div class="col-12 form-group">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-check">
+                            <input type="checkbox" class="form-check-input" id="check" name="condiciones" value="aceptado" >
                             <label class="form-check-label" for="check"><a href="PoliticaPrivacidad.html">Aceptar políticas de privacidad</a> </label>
                         </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 form-check p-2">
+                            <label class="form-check-label" for="check2">
+                                Asimismo, y especialmente si considera que no ha obtenido satisfacción plena en el ejercicio de sus derechos, podrá presentar
+                                una reclamación ante la autoridad nacional de control dirigiéndose a estos efectos a la Agencia Española de Protección de Datos,
+                                C/ Jorge Juan, 6 – 28001 Madrid. Asimismo, solicitamos su autorización para ofrecerle productos y servicios relacionados con los
+                                contratados y fidelizarle como cliente.
+                            </label>
+                        </div>
+                        <div class="col-12 form-check p-2">
+                            <div class="col-3">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                <label class="form-check-label" for="exampleRadios1">
+                                    SI
+                                </label>
+                            </div>
+
+                            <div class="col-3">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                <label class="form-check-label" for="exampleRadios2">
+                                    NO
+                                </label>
+                            </div>
+                        </div>
+
+
                         <div id="botondelregsitro">
                             <button type="submit" class="btn btn-primary">Registro</button>
                         </div>
@@ -116,7 +141,7 @@
 
         <div class="row" id="footer">
             <div class=" col-lg-3 col-sm-12">
-                <li><a href="politica">POLITICA DE PRIVACIDAD</a> </li>
+                <li><a href="PoliticaPrivacidad.html">POLITICA DE PRIVACIDAD</a> </li>
             </div>
             <div class="col-lg-3 col-sm-12">
                 <li><a href="cookies.html">POLITICA DE COOKIES</a> </li>

@@ -7,7 +7,7 @@
 /*marroncoscuro:#522101;*/
 @font-face {
     font-family: SeñorAnillos;
-    src: url("fuentes/sdla.ttf");
+    src: url("../fuentes/sdla.ttf");
 }
 html
 {
@@ -145,4 +145,17 @@ img
 }
 #parrafo2{
     font-family:Merriweather;
+}
+#gracias{
+    width: 929px;
+    height: 520px;
+    padding: 50px;
+    background-image: url("../imagenes/gra.png");
+    margin: 0 auto;
+}
+#gracias p{
+    font-family: SeñorAnillos;
+    font-size: 6.4em;
+    text-align: center;
+    color: #522101;
 }
