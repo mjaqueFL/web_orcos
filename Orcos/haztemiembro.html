@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, shrink-to-fit=no">
+    <meta name="description=" content="Esta pagina unicamente esta para unirte a la asociacion de los orcos">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <script src="Javascript/Cookie.js"></script>
+    <title>Hazte Miembro del club</title>
+</head>
+<body onload="aceptar_cookies()">
+    <div class="container-fluid" >
+        <div class="row">
+            <div class="col-12" id="header">
+                <img src="imagenes/prueba.png" alt="foto header" longdesc="tiene que ser más largo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="menu">
+                <a class="nav" href="Index.html">Inicio</a>
+                <a class="nav" href="historia.html">Historia</a>
+                <a class="nav" href="personajes.html">Personajes</a>
+                <a class="nav" href="haztemiembro.html">Hazte Miembro</a>
+            </div><!--/menu-->
+        </div>
+
+
+
+
+
+        <div class="row" id="contenedor">
+            <form class="col-12" method="post" name="contactar" onsubmit="return aceptar()">          <!--FORMULARIO-->
+                <div class="row">           <!--PRIMER BLOQUE(FILA)-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4 col-sm-3 col-md-4 col-lg-3" for="Nombre">Nombre:</label>
+                        <input class="col-7 col-sm-7" type="text" class="form-control" name="Nombre" id="Nombre" placeholder="Introduce Nombre">
+                        <label class="col-4 col-sm-3 col-md-4 col-lg-3" for="Email">Correo:</label>
+                        <input class="col-7 col-sm-7" type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Introduce un gmail">
+                        <label class="col-4 col-sm-3 col-md-4 col-lg-3" for="pw">Contraseña:</label>
+                        <input class="col-7" type="password" class="form-control" id="pw" placeholder="*****">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4" for="Apellidos">Apellidos:</label>
+                        <input class="col-7" type="text" class="form-control" id="Apellidos" placeholder="Introduce Apellidos">
+                        <label class="col-4" for="Usuario">Nombre Usuario:</label>
+                        <input class="col-7" type="text" class="form-control" id="Usuario" placeholder="Introduce Nombre Usuario">
+                        <label class="col-4" for="pwverify">Verificar Contraseña:</label>
+                        <input class="col-7" type="password" class="form-control" id="pwverify" placeholder="*****">
+                    </div>
+                </div>
+                <div class="row">               <!--SEGUNDO BLOQUE(FILA)-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4" for="Seleccion">Tipo de Suscripción:</label>
+                        <select class="col-7" id="Seleccion">
+                            <option>Normal</option>
+                            <option>Deluxe</option>
+                            <option>Premium</option>
+                        </select>
+                        <label class="col-4" for="Direccion">Dirección:</label>
+                        <input class="col-7" type="text" class="form-control" id="Direccion" placeholder="Introduce Direccion">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4">Precios:</label>
+                        <label class="col-7">Normal:20€, Deluxe:40€, Premium:50€</label>
+                        <label class="col-4" for="Direccion2">Dirección2:</label>
+                        <input class="col-7" type="text" class="form-control" id="Direccion2" placeholder="Introduce Direccion2">
+                    </div>
+                </div>
+                <div class="row">           <!--TERCER BLOQUE(FILA)-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4 col-sm-2 col-md-4 col-lg-2" for="Ciudad">Ciudad:</label>
+                        <input class="col-7 col-sm-4 col-md-7 col-lg-3" type="text" class="form-control" id="Ciudad" placeholder="Ciudad">
+                        <label class="col-4 col-sm-2 col-md-4 col-lg-2" for="Edad">Edad:</label>
+                        <input class="col-4 col-sm-2 col-md-7 col-lg-3" type="text" class="form-control" id="Edad" placeholder="Edad">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4 col-sm-2 col-md-4 col-lg-2" for="Region">Región:</label>
+                        <input class="col-7 col-sm-4 col-md-7 col-lg-3" type="text" class="form-control" id="Region" placeholder="Región">
+                        <label class="col-4 col-sm-2 col-md-4 col-lg-2" for="Pais">País:</label>
+                        <input class="col-7 col-sm-3 col-md-7 col-lg-3" type="text" class="form-control" id="Pais" placeholder="País">
+                    </div>
+                </div>
+                <div class="row">           <!--CUARTO BLOQUE(FILA)-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-4" for="ncuenta">Número de Cuenta:</label>
+                        <input class="col-7" type="text" class="form-control" id="ncuenta" placeholder="ESXX XXXX XXXX XX XXXXXXXXX">
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <label class="col-2" for="banco">Banco:</label>
+                        <select class="col-5" id="banco">
+                            <option>BBVA</option>
+                            <option>SANTANDER</option>
+                            <option>BANCA PUEYO</option>
+                            <option>CAJA BADAJOZ</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">           <!--CUARTO BLOQUE(FILA)-->
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6 form-group">
+                        <div class="form-check">
+                            <input type="checkbox"  class="form-check-input" id="check" name="condiciones" value="aceptado" >
+                            <label class="form-check-label" for="check"><a href="PoliticaPrivacidad.html">Aceptar políticas de privacidad</a> </label>
+                        </div>
+                        <div id="botondelregsitro">
+                            <button type="submit" class="btn btn-primary">Registro</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+        <div class="row" id="footer">
+            <div class=" col-lg-3 col-sm-12">
+                <li><a href="politica">POLITICA DE PRIVACIDAD</a> </li>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <li><a href="cookies.html">POLITICA DE COOKIES</a> </li>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <li><a href="avisolegal.html"> AVISO LEGAL</a></li>
+            </div>
+            <div class="col-lg-3 col-sm-12">
+                <li><a href="imagenlegal.html"> IMAGENES LEGAL</a></li>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

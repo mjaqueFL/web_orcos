@@ -1,0 +1,148 @@
+/*<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">*/
+/*Colores*/
+/*Marronchocolate:#b17652;*/
+/*Colorhuevopodrido:#f1eade;*/
+/*Amarilloraro:#dac682;*/
+/*blanco:#ffffff;*/
+/*marroncoscuro:#522101;*/
+@font-face {
+    font-family: SeñorAnillos;
+    src: url("fuentes/sdla.ttf");
+}
+html
+{
+   /* width: 1300px;*/
+    margin: 0 auto;
+}
+body
+{
+    width: 100%;
+	background-color:#dac682 ;
+}
+#header{
+    width: 100%;
+    padding:0;
+}
+#header img{
+    width: 100%;
+    height: auto;
+}
+#menu {
+    display: flex;
+    padding: 0;
+}
+@media (max-width:40em){
+    #menu{
+        flex-direction:column;
+    }
+}
+.nav{
+    font-family: SeñorAnillos;
+    flex-grow:1;
+    background:#b17652;
+    color:#522101;
+    text-decoration:none;
+    text-align:center;
+	font-size:25px;
+    padding:15px;
+    border:2px solid #dac682;
+}
+h1,h2,h3
+{
+    font-family: "Trebuchet MS";
+}
+footer
+{
+    text-align: left;
+    font-size: 13px;
+}
+ol
+{
+    list-style-type: none;
+}
+li
+{
+    list-style-type: none;
+}
+p
+{
+    text-align: justify;
+    font-family:Merriweather;
+}
+a
+{
+    color:#ffff;
+}
+a:hover
+{
+    background-color: #522101;
+    color:#ffff;
+    text-decoration: none;
+}
+#nav
+{
+    background-color:#b17652 ;
+}
+#contenedor
+{
+    background-color:#f1eade ;
+	padding-top:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+	font-size:15px;
+}
+#footer
+{
+    font-family: SeñorAnillos;
+    background-color:#dac682 ;
+	text-align:center;
+	
+}
+#footer li
+{
+	display:inline-block;
+	text-align:center;
+}
+
+#parrafo1
+{
+    width: 80%;
+
+}
+#foto
+{
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-bottom: 5px;
+
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+#contenedor a
+{
+    color:#522101;
+}
+#contenedor a:hover
+{
+    color:#ffff !important;
+}
+
+#contenedor .card{
+   margin: 31px;
+    font-size: 14px !important;
+}
+#botondelregsitro
+{
+    text-align: center;
+}
+#texto
+{
+    text-align: center;
+}
+#parrafo2{
+    font-family:Merriweather;
+}
