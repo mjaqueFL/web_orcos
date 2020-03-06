@@ -1,0 +1,205 @@
+/*<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">*/
+/*Colores*/
+/*Marronchocolate:#b17652;*/
+/*Colorhuevopodrido:#f1eade;*/
+/*Amarilloraro:#dac682;*/
+/*blanco:#ffffff;*/
+/*marroncoscuro:#522101;*/
+@marroncitoclaro:#dac682;
+@marron:#b17652;
+@marronazo:#522101;
+@blanco:#ffff;
+@huevopodrido:#f1eade;
+@paddingcontenedor:10px;
+@anchura:100%;
+@font-face {
+  font-family: SeñorAnillos;
+  src: url("fuentes/sdla.ttf");
+}
+html
+{
+  /* width: 1300px;*/
+  margin: 0 auto;
+}
+body
+{
+  width: @anchura;
+  background-color:@marroncitoclaro ;
+}
+#header{
+  width: @anchura;
+  padding:0;
+}
+#header img{
+  width: @anchura;
+  height: auto;
+}
+#menu {
+  display: flex;
+  padding: 0;
+}
+@media (max-width:40em){
+  #menu{
+    flex-direction:column;
+  }
+}
+.nav{
+  font-family: SeñorAnillos;
+  flex-grow:1;
+  background:@marron;
+  color:@marronazo;
+  text-decoration:none;
+  text-align:center;
+  font-size:25px;
+  padding:15px;
+  border:2px solid @marroncitoclaro;
+}
+h1,h2,h3
+{
+  font-family: "Trebuchet MS";
+}
+footer
+{
+  text-align: left;
+  font-size: 13px;
+}
+ol
+{
+  list-style-type: none;
+}
+li
+{
+  list-style-type: none;
+}
+p
+{
+  text-align: justify;
+  font-family:Merriweather;
+}
+a
+{
+  color:@blanco;
+}
+a:hover
+{
+  background-color: @marronazo;
+  color:@huevopodrido;
+  text-decoration: none;
+}
+#nav
+{
+  background-color:@marron ;
+}
+#contenedor
+{
+  background-color:@huevopodrido ;
+  padding:@paddingcontenedor @paddingcontenedor 0;
+  font-size:15px;
+}
+#footer
+{
+  font-family: SeñorAnillos;
+  background-color:@marroncitoclaro ;
+  text-align:center;
+
+}
+#footer li
+{
+  display:inline-block;
+  text-align:center;
+}
+
+#parrafo1
+{
+  width: 80%;
+
+}
+#foto
+{
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  padding-bottom: 5px;
+
+}
+img
+{
+  width: @anchura;
+  height: auto;
+}
+#contenedor a
+{
+  color:@marronazo;
+}
+#contenedor a:hover
+{
+  color:@blanco !important;
+}
+
+#contenedor .card{
+  margin: 31px;
+  font-size: 14px !important;
+}
+#botondelregsitro
+{
+  text-align: center;
+}
+#texto
+{
+  text-align: center;
+}
+#parrafo2{
+  font-family:Merriweather;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+  background-color:@marroncitoclaro ;
+}
+
+.nav{
+  background:@marron;
+  border:@marroncitoclaro;
+  color:@marronazo;
+}
+#nav
+{
+  background-color:@marron ;
+}
+
+#footer{
+  background-color: @marroncitoclaro;
+}
+
+a
+{
+  color:@blanco;
+}
+
+a:hover{
+  background-color: @marronazo;
+  color:@huevopodrido;
+}
+
+#contenedor a
+{
+  color:@marronazo;
+}
+
+#contenedor a:hover
+{
+  color:@blanco !important; /*PROBAR SI VA ESTO*/
+}
+

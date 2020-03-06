@@ -25,7 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="G:/DWEC/Repaso" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,6 +80,8 @@
       <workItem from="1583317458179" duration="60000" />
       <workItem from="1583334848411" duration="8129000" />
       <workItem from="1583403944677" duration="3766000" />
+      <workItem from="1583426878714" duration="348000" />
+      <workItem from="1583494092258" duration="593000" />
     </task>
     <servers />
   </component>
@@ -91,11 +93,11 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.860@0.0.1440.860" timestamp="1583405283386" />
-    <state x="555" y="227" key="FileChooserDialogImpl" timestamp="1583317518346">
-      <screen x="0" y="0" width="1440" height="860" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1583427226848">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="555" y="227" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1583317518346" />
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582129232654" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583427226848" />
     <state x="461" y="161" key="SettingsEditor" timestamp="1583339407674">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
