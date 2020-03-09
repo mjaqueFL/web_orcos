@@ -147,5 +147,18 @@ a:hover {
 }
 #contenedor a:hover {
   color: #ffff !important;
-  /*PROBAR SI VA ESTO*/
+ 
+}
+#gracias{
+    width: 929px;
+    height: 520px;
+    padding: 50px;
+    background-image: url("imagenes/gra.png");
+    margin: 0 auto;
+}
+#gracias p{
+    font-family: SeñorAnillos;
+    font-size: 6.4em;
+    text-align: center;
+    color: #522101;
 }
